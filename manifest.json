@@ -1,0 +1,24 @@
+{
+  "name": "Bird",
+  "version": "1.0.0",
+  "description": "Change bird icon",
+  "manifest_version": 3,
+  "author": "Berk Baski",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Bird"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.twitter.com/*"],
+      "js": ["script.js"]
+    }
+  ],
+  "permissions": ["activeTab", "storage"],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
