@@ -29,7 +29,7 @@ const selectors = {
   },
 };
 
-window.onload = () => handleIconChange;
+window.onload = () => handleIconChange();
 
 const handleIconChange = () => {
   const intervalId = setInterval(() => {
