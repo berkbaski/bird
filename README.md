@@ -1,3 +1,5 @@
+![bird logo](https://github.com/berkbaski/bird/blob/main/icons/icon128.png)
+
 # Bird - Chrome Extension
 Bird is a Chrome extension that replaces the Twitter logo with a bird icon on the browser tab of Twitter. This extension is a fun way to personalize your Twitter experience.
 
